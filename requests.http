@@ -6,7 +6,6 @@ GET http://localhost:8080/
 
 
 
-
 ######################
 ### Second example ###
 
@@ -24,9 +23,6 @@ Content-Type: application/json
 ### Get a specific resource
 GET http://localhost:8080/resources/an-id
 # Content-Type: application/xml
-
-
-
 
 
 
@@ -48,18 +44,10 @@ Content-Type: application/json
 
 
 
-
-
-
-
 #####################
 ### Fifth example ###
 
 GET http://localhost:8080/custom-feature
-
-
-
-
 
 
 
@@ -68,7 +56,6 @@ GET http://localhost:8080/custom-feature
 
 GET http://localhost:8080/html
 # Open in browser for statics
-
 
 
 
