@@ -1,0 +1,44 @@
+#####################
+### First example ###
+
+### Hello world
+GET http://localhost:8080/
+
+
+
+
+######################
+### Second example ###
+
+### Get all resources
+GET http://localhost:8080/resources
+
+### Save a resource
+POST http://localhost:8080/resources
+Content-Type: application/json
+
+{"testing": true}
+
+### Get a specific resource
+GET http://localhost:8080/resources/an-id
+# Content-Type: application/xml
+
+
+
+
+
+
+######################
+### Fourth example ###
+
+### Respond with json
+GET http://localhost:8080/resources/bender-bending-rodrigruez
+Accept: application/json
+
+###
+POST http://localhost:8080/resources
+Content-Type: application/json
+
+{ "name":  "Bender Bending Rodrigruez", "age": 15}
+
+###
