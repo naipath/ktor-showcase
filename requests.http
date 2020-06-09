@@ -17,7 +17,9 @@ GET http://localhost:8080/resources
 POST http://localhost:8080/resources
 Content-Type: application/json
 
-{"testing": true}
+{
+  "testing": true
+}
 
 ### Get a specific resource
 GET http://localhost:8080/resources/an-id
@@ -39,6 +41,44 @@ Accept: application/json
 POST http://localhost:8080/resources
 Content-Type: application/json
 
-{ "name":  "Bender Bending Rodrigruez", "age": 15}
+{
+  "name": "Bender Bending Rodrigruez",
+  "age": 15
+}
 
-###
+
+
+
+
+
+
+#####################
+### Fifth example ###
+
+GET http://localhost:8080/custom-feature
+
+
+
+
+
+
+
+#####################
+### Sixth example ###
+
+GET http://localhost:8080/html
+# Open in browser for statics
+
+
+
+
+#######################
+### Seventh example ###
+# Open in browser
+
+### Pages
+GET http://localhost:8080/
+
+### Api
+GET http://localhost:8080/api/users
+

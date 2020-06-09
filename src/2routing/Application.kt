@@ -2,7 +2,6 @@ package `2routing`
 
 import io.ktor.application.Application
 import io.ktor.application.call
-import io.ktor.http.ContentType.Application.Json
 import io.ktor.http.ContentType.Application.Xml
 import io.ktor.request.receiveText
 import io.ktor.response.header
@@ -45,6 +44,5 @@ fun Application.routing() {
         }
 
     }
-
 }
 

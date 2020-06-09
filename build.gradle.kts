@@ -35,9 +35,8 @@ dependencies {
 
     // Additional features
 
-    // HTML + CSS dsl
+    // HTML
     implementation("io.ktor:ktor-html-builder:$ktor_version")
-    implementation("org.jetbrains:kotlin-css-jvm:1.0.0-pre.31-kotlin-1.2.41")
 
     // JSON
     implementation("io.ktor:ktor-gson:$ktor_version")
