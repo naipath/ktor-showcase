@@ -22,7 +22,6 @@ fun Application.routing() {
 
             }
 
-
             post("/") {
 
                 val input = call.receiveText()

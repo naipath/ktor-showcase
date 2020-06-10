@@ -31,5 +31,6 @@ class UserServiceFeature(private val config: Configuration) {
     }
 }
 
+// Make it accessible in a pipeline context
 inline val PipelineContext<*, ApplicationCall>.userService: UserService
     get() = call.attributes.get(UserServiceFeature.key).userService
